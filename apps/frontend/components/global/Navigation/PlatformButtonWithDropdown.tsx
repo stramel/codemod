@@ -88,18 +88,7 @@ export default function PlatformButtonWithDropdown() {
           <div className="body-s-medium pt-s font-medium text-secondary-light dark:text-secondary-dark">
             Run
           </div>
-          <DropdownMenu.Group className="flex flex-col border-b-[1px] border-b-border-light py-s dark:border-b-border-dark">
-            <DropdownMenu.Item asChild>
-              <a
-                href="https://marketplace.visualstudio.com/items?itemName=codemod.codemod-vscode-extension"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="body-s-medium flex items-center gap-xs rounded-[8px] p-xs font-medium text-primary-light focus:outline-none data-[highlighted]:bg-emphasis-light dark:text-primary-dark dark:data-[highlighted]:bg-emphasis-dark"
-              >
-                <Icon name="vscode" className="h-4 w-4" />
-                <span>VS Code Extension</span>
-              </a>
-            </DropdownMenu.Item>
+          <DropdownMenu.Group className="flex flex-col border-b-[1px] border-b-border-light py-s dark:border-b-border-dark">         
             <DropdownMenu.Item asChild>
               <Link
                 href="https://go.codemod.com/cli-docs"
